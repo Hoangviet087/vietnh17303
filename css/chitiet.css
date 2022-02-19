@@ -1,0 +1,107 @@
+article {
+    width: 80%;
+    min-height: 530px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+
+p {
+    clear: both;
+}
+
+.anh-sp {
+    width: calc(50% - 30px);
+    height: 600px;
+    margin-top: 50px;
+    float: left;
+}
+
+.anh-sp>img {
+    margin-left: 220px;
+    width: 70%;
+    height: 500px;
+}
+
+.thongtin-sp {
+    width: 47%;
+    min-height: 480px;
+    margin-top: 50px;
+    float: right;
+}
+
+.thongtin-sp ul ul li {
+    direction: initial;
+}
+
+.tt-sp {
+    width: 90%;
+    min-height: 300px;
+    margin: 0px auto;
+}
+
+.tt-sp>li {
+    line-height: 40px;
+    list-style: none;
+    border-bottom: 1px solid rgb(255, 180, 180);
+}
+
+.tt-sp>li>b {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mua-sp {
+    width: 100%;
+    height: 55px;
+    margin-top: 30px;
+}
+
+.mua-sp>div>a>button {
+    width: 250px;
+    height: 45px;
+    float: left;
+    margin-left: 20px;
+}
+
+.mua-sp2 {
+    width: 100%;
+    height: 50px;
+}
+
+.mua-sp2>a>button {
+    width: 520px;
+    height: 42px;
+    margin-left: 20px;
+}
+
+.b1>a>button {
+    color: white;
+    background-color: rgb(255, 178, 34);
+    border: none;
+}
+
+.b2>a>button {
+    color: white;
+    background-color: rgb(255, 34, 34);
+    border: none;
+}
+
+.mua-sp2>a>button {
+    color: white;
+    background-color: rgb(34, 167, 255);
+    border: none;
+}
+
+.b1>a>button:hover {
+    transform: scale(1.05, 1.05);
+    transition: all 0.4s ease;
+}
+
+.b2>a>button:hover {
+    transform: scale(1.05, 1.05);
+    transition: all 0.4s ease;
+}
+
+.mua-sp2>a>button:hover {
+    transform: scale(1.05, 1.05);
+    transition: all 0.4s;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dang nhap</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/dangnhap.css">
+</head>
+
+<body>
+    <header>
+        <div class="container1">
+            <img src="inmages/logo-removebg-preview.png" alt="">
+            <div class="tim_kiem">
+                <div class="search-container">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Tìm kiếm.." name="Tìm kiếm">
+
+                </div>
+            </div>
+            <div class="col_1b"> <a href="index.html"> Trang chủ</a>
+                <a href="lienhe.html">Liên hệ </a>
+                <a href="#"> Góp ý</a>
+                <a href="#"> Đăng nhập</a>
+            </div>
+        </div>
+
+    </header>
+    <div id="navbar">
+        <ul>
+            <li> <a href="index.html">Trang chủ</a></li>
+            <li>
+                <a href="#"> Bút</a>
+                <ul class="smenu">
+                    <li> <a href="#">Bút mực </a> </li>
+                    <li> <a href="#">Bút chì </a></li>
+                </ul>
+            </li>
+
+            <li> <a href="#"> Màu</a>
+                <ul class="smenu">
+                    <li> <a href="#">Màu chì </a> </li>
+                    <li> <a href="#">Màu nước </a></li>
+                </ul>
+            </li>
+            <li> <a href="#"> Hộp Đựng</a></li>
+            <li> <a href="sale.html"> Sale</a></li>
+        </ul>
+    </div>
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+        /*dangnhap*/
+    </script>
+    <article>
+        <div class="form">
+            <div class="form-tieude">
+                <h1>ĐĂNG NHẬP</h1>
+            </div>
+
+            <div class="form-tk">
+                <label><b>Email</b></label><br>
+                <input type="email" name="email"><br>
+            </div>
+
+            <div class="form-mk">
+                <label><b>Mật khẩu</b></label><br>
+                <input type="password" name=""><br>
+            </div>
+            <button>Đăng nhập</button> <br>
+
+        </div>
+        <div>
+            <div class="dk"> <a href="dangky.html">TẠO TÀI KHOẢN MỚI</a></div>
+    </article>
+
+    <footer class="footer ">
+        <div class="container ">
+            <div class="grid-row ">
+                <div class="grid-column-2-4 ">
+                    <h3 class="footer-heading ">Chăm sóc khách hàng</h3>
+                    <ul class="footer-list ">
+                        <li class="footer-item "></li>
+                        <li><a href=" " class="footer-item-link ">Trung tâm trợ giúp</a></li>
+                        <li><a href=" " class="footer-item-link "> FB -SHOP Mall</a></li>
+                        <li><a href=" " class="footer-item-link ">Hướng dẫn mua hàng</a></li>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid-column-2-4 ">
+                    <h3 class="footer-heading ">Giới thiệu</h3>
+                    <ul class="footer-list ">
+                        <li class="footer-item ">
+                            <li><a href=" " class="footer-item-link ">Giới thiệu</a></li>
+                            <li><a href=" " class="footer-item-link ">Tuyển dụng</a></li>
+                            <li><a href=" " class="footer-item-link ">Điều khoản</a></li>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid-column-2-4 ">
+                    <h3 class="footer-heading "> Danh mục</h3>
+                    <ul class="footer-list ">
+                        <li class="footer-item ">
+                            <li>
+                                <a href=" " class="footer-item-link ">
+                                    Được quan tâm nhiều <br>
+                                   
+                                </a>
+                            </li>
+                            <li>
+                                <a href=" " class="footer-item-link ">
+                                   Sale
+                                   
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="grid-column-2-4 ">
+                    <h3 class="footer-heading ">Theo dõi</h3>
+                    <ul class="footer-list ">
+                        <li class="footer-item ">
+                            <li>
+                                <a href=" " class="footer-item-link ">
+                                    <i class="footer-item-icon fab fa-facebook "></i> Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a href=" " class="footer-item-link ">
+                                    <i class="footer-item-icon fab fa-instagram "></i> Instagram
+                                </a>
+                            </li>
+                            <li>
+                                <a href=" " class="footer-item-link ">
+                                    <i class="footer-item-icon fab fa-linkedin "></i> Linkedin
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="grid-column-2-4 ">
+                    <h3 class="footer-heading ">Vào cửa hàng trên app</h3>
+                    <ul class="footer-list ">
+                        <li class="footer-item ">
+                            <div class="footer-dowload ">
+                                <img src="inmages/maqr.jpg " alt="Dowload QR " class="footer-dowload-qr ">
+                                <div class="footer-dowload-apps ">
+                                    <img src="inmages/chplay.jpg " alt="Google play " class="footer-dowload-app-img ">
+                                    <img src="inmages/táo.png " alt="App store " class="footer-dowload-app-img ">
+                        </li>
+                    </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
